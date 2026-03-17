@@ -1,6 +1,7 @@
 public class Hello {
     public static void main(String[] args) {
 
+ feature/Uc4
         if (args.length == 0) {
             System.out.println("Hello, World");
         } else {
@@ -14,5 +15,15 @@ public class Hello {
                 }
             }
         }
+
+        String name;
+        if (args.length > 0) {
+            name = args[0];
+        } else {
+            name = "World";
+        }
+
+        System.out.println("Hello, " + name);
+main
     }
 }
